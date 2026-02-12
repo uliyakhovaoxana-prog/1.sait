@@ -1,0 +1,197 @@
+body{
+    width: 65.7%;
+    height: 1005px;
+    margin-top:0px;
+    margin-left:17%;
+}
+
+.topbar { /*верхняя панель*/
+    display: flex;             /* ставит элементы в один ряд */
+    justify-content: space-between; /* разделяет по сторонам */
+    width: 835px;
+    height: 53px;
+    margin-top:3px;
+    margin-left:8%;
+}
+.text-block { /* блок с текстом */
+    display: flex;
+    flex-direction: column;  /* текст в столбик */
+}
+#title1 { /* заголовок 1 */
+    font-size: 22pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#description { /* описание */
+    font-size: 10.9pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.search{
+    height:28px;
+    width: 56%;
+    background-color:white;
+    border: 1px solid gray;
+    padding-left:10px;
+    margin-top:5px;
+    margin-left:37%;
+}
+.search:focus { /*при нажатии*/
+    outline: none;
+    border-color: #999;
+}
+
+.logo{ 
+    background-image:url(logo_1000x288px.jpg);
+    width: 100%;
+    height: 288px;
+    margin-top:5%;
+    background-repeat: no-repeat;
+}
+.menu{
+    background-color: rgb(21, 21, 21);
+    width:92%;
+    height: 33px;
+    margin-top:-0.1px;
+    display: flex;
+    
+    padding-top:15px;
+    padding-left:80px;
+    gap: 35px;   /* расстояние между словами */
+    font-size:9pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link{
+    color:white;
+    text-decoration: none;
+}
+
+.story{
+    margin-top:60px;
+    margin-left:80px;
+    margin-right: 600px;
+    height: 500px;
+    width:57.5%;
+}
+#title2{
+    font-size:24px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    margin-top:0px;
+    width: 20%;
+}
+.posted{
+    margin-top:-8px;
+    font-size: 9pt;
+    font-family:Arial, Helvetica, sans-serif;
+    color:gray;
+    width: 33%;
+}
+.bluelink{
+    color:rgb(17, 143, 211);
+    text-decoration: none;
+}
+.pilt{
+    border: 1px solid gray;
+    width:55.1%;
+    height: 316px;
+    margin-top:6%
+}
+.target{
+    background-image: url(target.jpg);
+    width:95.8%;
+    height: 303px;
+    background-repeat: no-repeat;
+    border:7px solid white;
+    display:flex;
+}
+.tekst1{
+    margin-top:-59%;
+    margin-left:60%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px; /*расстояние между срочками*/
+    font-size:10pt;
+    width: 36%;
+}
+.tekst2{
+    margin-top:0%;
+    margin-left:60%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px; /*расстояние между срочками*/
+    font-size:10pt;
+    width: 37%;
+}
+.tekst3{
+    margin-top:-2%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-size:10pt;
+}
+.footer{
+    margin-top:5%;
+    width: 104.9%;
+    height:5px;
+}
+
+.extra-block{
+    margin-top:-55%;
+    margin-left:73%;
+    width: 17%;
+    height: 500px;
+}
+
+.gray{
+    margin-top: 14%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:9pt;
+}
+.styled-select {
+    position: relative;
+    display: block;
+}
+.styled-select select {
+    width: 100%;
+    height: 23px;
+    font-size: 12px;
+    color: #333;
+    background-color: #fff;
+    border: 3px solid rgb(177,189,197);
+    border-radius: 4px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.styled-select select:focus {
+    outline: none;
+    border-color: #999;
+}
+.arrows { /* Контейнер для двух стрелок */
+    position: absolute;
+    top: 5%;
+    right:5%;
+    font-size: 9px;
+    color: #777;
+    line-height: 11px;
+}
+.arrows span {
+    display: block;
+}
+
+.listeners{
+    margin-top: 20%;
+    height: 56px;
+}
+.Miro{
+    margin-top: 0%;
+    height: 78px;
+}
+#license{
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 9pt;
+    line-height: 20px;
+    width: 100%;
+    height: 59px;
+    margin-top:-5%;
+}
